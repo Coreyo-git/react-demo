@@ -7,7 +7,9 @@ import Button from './Button';
         <header className='header'>
             <h1>{title}</h1>
             <Button color='black' text='Add'/>
+            <Button/>   
             <Button/>
+            <Button color='white' text='Clear'/>
         </header>
     )
 }
