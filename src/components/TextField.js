@@ -1,10 +1,12 @@
-const TextField = (label, placeholder) => {
+const TextField = (placeholder) => {
     return (
-    <form>
-        <label>{label}</label>
-        <TextField id="outlined-basic" label="Outlined" placeholder={placeholder} variant="outlined" />
-    </form>
+        <input type="text"  placeholder={placeholder}></input>
     )
+}
+
+TextField.defaultProps = {
+    text: 'replace me',
+    placeholder: 'replace me',
 }
 
 export default TextField
